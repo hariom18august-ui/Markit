@@ -1,0 +1,5 @@
+{
+  "name": "MarkIt",
+  "description": "A mobile-friendly app to track class attendance from timetable screenshots with automated reminders and analytics.",
+  "requestFramePermissions": []
+}
