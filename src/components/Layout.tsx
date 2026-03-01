@@ -3,6 +3,17 @@ import { Link, useLocation } from 'react-router-dom';
 import { LayoutDashboard, Calendar, BarChart3, Settings, Bell } from 'lucide-react';
 import { cn } from '../utils/cn';
 
+
+export default function Navbar() {
+  return (
+    <nav className="flex items-center justify-between p-4 shadow-md">
+      <div className="flex items-center gap-2">
+        <img width="339" height="289" alt="image" src="https://github.com/user-attachments/assets/96e9fbcf-6982-4b1c-b95c-1a3fed11a915" />
+        <h1 className="text-2xl font-bold text-indigo-600">MarkIt</h1>
+      </div>
+    </nav>
+  );
+}
 const NavItem = ({ to, icon: Icon, label, active }: { to: string, icon: any, label: string, active: boolean }) => (
   <Link
     to={to}
