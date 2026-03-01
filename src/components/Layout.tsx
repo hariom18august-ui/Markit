@@ -27,7 +27,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-indigo-600 text-white">
               <Calendar size={18} />
             </div>
-            <h1 className="text-lg font-bold tracking-tight">SmartTrack</h1>
+            <h1 className="text-lg font-bold tracking-tight">Markit</h1>
           </div>
           <button className="relative rounded-full p-2 text-slate-600 hover:bg-slate-100">
             <Bell size={20} />
